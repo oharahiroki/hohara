@@ -66,6 +66,10 @@ header {
     transform: rotateY(360deg);
 }
 
+.logo2 a{
+        width:550px;
+}
+
 .logo2 a img{
     width: 550px;
     height: auto;

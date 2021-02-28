@@ -1,7 +1,10 @@
 @media(max-width:850px) {
 
-    .mainlogo2 {
+    .logo2 a{
         width: 400px;
+    }
+    .logo2 a img{
+        width: 300px;
     }
 
     #footer_wrap {
@@ -296,7 +299,10 @@
 
 
 @media(max-width:450px) {
-    .mainlogo2 {
+    .logo2 a{
+        width: 300px;
+    }
+    .logo2 a img{
         width: 300px;
     }
 
