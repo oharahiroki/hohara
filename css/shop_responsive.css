@@ -27,5 +27,8 @@ font-size: 1em;
     #main{
         text-align: start;
     }
+    #kind{
+        margin-left: 0;
+    }
     
 }
