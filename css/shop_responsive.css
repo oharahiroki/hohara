@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media(max-width:1500px){
+    #main{
+        width:auto;
+    }       
+}
+@media(max-width:900px){
+    #main p{
+font-size: 1em;        
+    } 
+}
+@media(max-width:720px){
+    #main{
+        display: block;
+        text-align: center;
+    }
+    #history{
+        width: auto;
+    }
+    #kind{
+        width: auto;
+    }
+}
+
+@media(max-width:500px){
+    #main{
+        text-align: start;
+    }
+    
+}

@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+body {
+    font-family: "YakuHanJP", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴシック Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1 {
+    width: 634px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+/*ここまでは必ずコピペする*/
+
+
+
+
+#main_nav {
+    position: relative;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#slide_show {
+    width: 1000px;
+    margin: 0 auto 50px;
+}
+
+#slide_show img {
+    width: 800px;
+    height: 400px;
+}
+
+#main_area {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.minilogo img {
+    height: 50px;
+    width: 50px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    color: #6eb0f9;
+    line-height: 1.4;
+    -webkit-box-reflect: below -10px -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6));
+}
+
+#main_text a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+figcaption p {
+    text-align: center;
+    /*    margin-left: 30px*/
+}
+
+#main_text a img:hover {
+    transition: 0.5s;
+    transform: translate(0px, -20px);
+}
+
+
+#area_news {
+    width: 1000px;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    margin-top: 100px;
+}
+
+#banner {
+    width: 350px;
+    text-align: end;
+}
+
+#squea {
+    display: flex;
+}
+
+#squea a {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#banner a:hover {
+    opacity: 0.5;
+}
+
+
+#long a {
+    margin-bottom: 10px;
+}
+
+.tanabenews h3{
+    font-size: 1.5em;
+    width: 320px;
+    text-align: center;
+    color: #5050CC;
+}
+
+
+/*問い合わせ*/
+
+
+.sec-qa {
+	margin-bottom: 40px;
+    margin-left: 26px;
+}
+
+div.qa-list {
+	width:500px;
+	margin: 0 auto;
+}
+
+.qa-list dl {
+	position: relative;
+	margin: 15px 0 0;
+	cursor: pointer;
+	border: 1px solid #DDD;
+}
+
+.qa-list dl:first-child {
+	margin-top: 0;
+}
+
+.qa-list dl::after {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: block;
+	width: 6px;
+	height: 6px;
+	margin: auto;
+	content: '';
+	transform: rotate(135deg);
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.qa-list .open::after {
+	transform: rotate(-45deg);
+}
+
+.qa-list dl dt {
+	position: relative;
+	margin: 0;
+	padding: 10px 10px 10px 30px;
+	font-weight: bold;
+	background: #DDD;
+}
+
+.qa-list dl dt::before {
+	font-size: 20px;
+	line-height: 1;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: block;
+	content: 'Q.';
+	color: #3285bf;
+}
+
+.qa-list dl dd::before {
+	font-size: 20px;
+	line-height: 1;
+	position: absolute;
+    top:0px;
+	left: 18px;
+	display: block;
+/*	content: 'A.';*/
+	font-weight: bold;
+	color: #f00;
+}
+
+.qa-list dl dd {
+	position: relative;
+	margin: 0;
+	padding: 15px 15px 15px 15px;
+    
+}
+
+.qa-list dl dd p {
+	margin: 30px 0 0;
+    line-height: 2em;
+}
+
+.qa-list dl dd p:first-child {
+	margin-top: 0;
+}
+
+.question_title h3{
+    font-size: 1.5em;
+    width: 500px;
+    text-align: center;
+    color: #5050CC;
+}

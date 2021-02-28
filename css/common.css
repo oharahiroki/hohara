@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/*topに戻る*/
+#top_page img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/dairisekimugen.jpg);
+/*
+    background: background-size: auto auto;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(26, 4, 255, 0.05) 5px, rgba(26, 4, 255, 0.05) 10px);
+*/
+
+}
+
+#container {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width:100%;
+    height: auto;
+}
+
+#main_logo_area {
+    display: flex;
+    justify-content: space-evenly;
+    clear: both;
+}
+
+.logo1{
+    transition: 0.8s;
+    margin-top: 10px;
+   
+}
+
+
+.mainlogo1 {
+    width: 100px;
+    height: 100px;
+}
+
+.mainlogo1 img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.logo1:hover {
+    transform: rotateY(360deg);
+}
+
+.logo2 a img{
+    width: 550px;
+    height: auto;
+}
+
+.mainlogo3 {
+    width: 200px;
+    pointer-events: none;
+}
+
+.mainlogo3 img {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+#main_nav ul li {
+    width: calc(100%/4);
+    text-align: center;
+    list-style-type: none;
+    background-color: blue;
+    border-right: dashed 3px white;
+    height: 35px;
+    line-height: 35px;
+}
+
+#main_nav ul li:nth-of-type(4) {
+    border-right: none;
+}
+
+
+
+#main_nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+#main_nav ul li:hover {
+    background-color: white;
+
+}
+
+#main_nav ul li a:hover {
+    color: black;
+}
+
+
+
+/*フッター*/
+footer {
+    width: 100%;
+    background-color:rgba(255,255,255,0.7);
+    border-top:6px solid;
+    border-image: linear-gradient(to right,skyblue 0%,blue 20%, mediumblue 50%,darkblue 80%,skyblue 100%);
+    border-image-slice: 1;
+}
+
+#footer_wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*    margin: 0 auto;*/
+
+}
+
+#left_footer{
+     margin-top: 15px;
+}
+
+#left_footer img {
+    width: 250px;
+    height: auto;
+}
+
+#right_footer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#right_footer p {
+    margin: 0 10px 0 10px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px blue dotted;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+#right_footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#center_footer{
+     margin-top: 15px;
+}
+
+
+#center_footer ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#center_footer ul p {
+    margin: 0 10px 0 10px;
+    padding: 0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px blue dotted;
+}
+
+#center_footer ul li {
+    list-style-type: none;
+    line-height: 3em;
+
+}
+
+#center_footer ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+#center_footer ul li:hover {
+    background-color: blue;
+
+}
+
+#center_footer ul li a:hover {
+    color: white;
+}
+
+main a{
+    display:flex;
+}

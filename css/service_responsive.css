@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media(max-width:1000px) {
+    #service {
+
+        display: flex;
+    }
+
+    #main {
+        width: auto
+    }
+
+    #service2 {
+        display: none;
+    }
+}
+
+@media(max-width:750px) {
+    #service {
+        display: block;
+        text-align: center;
+    }
+
+    #service_text {
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:550px){
+    #service_text p{
+        width: 360px;
+        margin: 0 auto;
+        text-align: start;
+    }
+    
+}
+@media(max-width:400px){
+    #service_text p{
+        width: 300px;
+        margin: 0 auto;
+        text-align: start;
+    
+}

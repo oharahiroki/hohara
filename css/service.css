@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+body {
+    font-family: "YakuHanJP", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴシック Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1 {
+    width: 634px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/*ここから*/
+
+
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+#service {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px;
+    display: none;
+
+}
+
+#service img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+#service_text {
+    width: 418px;
+    margin-left: 50px;
+}
+
+
+
+#service2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px;
+    align-items: center;
+}
+
+
+#service2 img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+#line {
+    border-top: 0.5px solid;
+    border-image: linear-gradient(to right, transparent 0%, transparent 20%, blue 50%, transparent 80%, transparent 100%);
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.service_img2 img {
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 0px;
+
+
+}
+
+
+
+.box26 {
+    position: relative;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    margin-left:50px;
+    width: 530px;
+    height: auto;
+}
+
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0;
+    line-height: 1;
+    font-size: 19px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.box26 p {
+    padding: 10px 0 0 0;
+    line-height: 2em;
+}

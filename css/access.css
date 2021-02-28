@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: "YakuHanJP", "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴシック Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1 {
+    width: 634px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+/*ここから*/
+h2{
+font-size: 2em;
+
+}
+
+#googlemap{
+    margin-bottom: 100px;
+        text-align: center;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+#illstrator{
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+#illstrator img{
+    width: 1000px;
+    height: auto;
+}
+#illstrator p{
+    font-size:1.2em;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media(max-width:1050px) {
+    #main_text a img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #banner {
+        margin: 0 auto;
+    }
+
+    #slide_show {
+        width: 750px;
+    }
+
+    #content {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #squea {
+        justify-content: center;
+    }
+
+    #main a {
+        justify-content: center;
+    }
+
+    #main_area {
+        display: block;
+    }
+
+    #main_area img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .question_title h3 {
+        width: auto;
+    }
+
+    #area_news {
+        width: auto;
+    }
+}
+
+@media(max-width:750px) {
+    #slide_show {
+        width: 550px;
+    }
+
+    @media(max-width:710px) {
+
+        #slide_show {
+            margin-top: -150px;
+        }
+
+    }
+
+    @media(max-width:550px) {
+        #slide_show {
+            width: 300px;
+            height: 200px;
+        }
+
+        #slide_show img {
+            width: 300px;
+            height: 200px;
+        }
+
+        div.qa-list {
+            width: 300px;
+        }
+        .sec-qa{
+            margin-left: auto;
+        }
+    }
